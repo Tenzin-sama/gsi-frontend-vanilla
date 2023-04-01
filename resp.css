@@ -1,0 +1,14 @@
+/* For screens smaller than 600px (e.g., smartphones) */
+@media screen and (max-width: 600px) {
+  /* Add your CSS rules here */
+}
+
+/* For screens between 600px and 900px (e.g., tablets) */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  /* Add your CSS rules here */
+}
+
+/* For screens larger than 900px (e.g., laptops and desktops) */
+@media screen and (min-width: 900px) {
+  /* Add your CSS rules here */
+}

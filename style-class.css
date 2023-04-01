@@ -1,0 +1,66 @@
+/* Colors */
+.bg-primary {
+  background-color: #ff0404;
+}
+.hover-bg-primary:hover{
+  background-color: #a30202;
+}
+.fg-primary {
+  color: #ff0404;
+}
+.hover-fg-primary {
+  color: #a30202;
+}
+.fg-blk90 {
+  color: #16243d;
+}
+.fg-muted {
+  color: #696e77;
+}
+.fg-gray {
+  color: #2d3748;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 22px;
+}
+.f-24{
+  font-size: 24px;
+}
+.f-18{
+  font-size: 18px;
+}
+.f-14{
+  font-size: 14px;
+}
+.f-bold{
+  font-weight: 700;
+}
+.f-uppercase{
+  text-transform: uppercase;
+}
+.width-100{
+  width: 100%;
+}
+.width-content{
+  width: 1164px;
+}
+.d-flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d-flex-row{
+  flex-direction: row;
+}
+.d-flex-column{
+  flex-direction: column;
+}
