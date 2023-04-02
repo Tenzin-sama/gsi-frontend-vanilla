@@ -1,10 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  /* font-family: 'DM Sans'; */
+
+  transition: 0.1s ease-out;
 }
 html {
   font-family: "DM Sans", sans-serif;
+  justify-content: center;
+}
+body {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
 }
 /* navbar */
 nav {
@@ -92,14 +99,14 @@ nav {
 .contact {
 }
 .contact a {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   line-height: 26px;
   /* identical to box height, or 162% */
 
   display: flex;
   align-items: center;
-  letter-spacing: -0.32px;
+  letter-spacing: 0.32px;
 
   color: #ffffff;
 }
@@ -113,7 +120,6 @@ nav {
   font-weight: bold;
   text-decoration: none;
   border-radius: 4px;
-  /* transition: background-color 0.2s ease-in-out; */
 }
 
 .contact-button:hover {
@@ -126,10 +132,35 @@ nav {
 }
 /* navbar end */
 /* hero */
-.hero-section{
+.hero-section {
   height: 682px;
-  background-image: url('hero.png');
+  background-image: url("hero.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
+}
+.image-overlay {
+  /* Position the pseudo-element to fill the parent div */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /* Set the background color to black with 80% opacity */
+  background-color: rgba(12, 34, 73, 0.74);
+
+  /* Make sure the pseudo-element is behind the content of the div */
+  z-index: 0;
+}
+.hero-section p {
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+.indiv-service a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
 }
