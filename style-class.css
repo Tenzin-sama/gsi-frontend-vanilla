@@ -89,9 +89,13 @@ h3 {
   align-items: center;
 }
 .d-flex-row {
+  display: flex;
+  align-items: center;
   flex-direction: row;
 }
 .d-flex-column {
+  display: flex;
+  align-items: center;
   flex-direction: column;
 }
 .justify-center {
@@ -118,6 +122,9 @@ h3 {
 .gap-20 {
   gap: 20px;
 }
+.gap-16{
+  gap: 16px;
+}
 .gap-0 {
   gap: 0;
 }
@@ -130,11 +137,17 @@ h3 {
 .rounded-2 {
   border-radius: 2px;
 }
+.rounded-8{
+  border-radius: 8px;
+}
 .rounded-10 {
   border-radius: 10px;
 }
 .margin-auto {
   margin: auto;
+}
+.padding-16{
+  padding: 16px;
 }
 .padding-y-30 {
   padding-top: 30px;
@@ -174,4 +187,12 @@ h3 {
 .sp-HW-270 {
   height: 270px;
   width: 270px;
+}
+.overflow-x-nobar{
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE11 */
+  scrollbar-width: none; /* Firefox */
+}
+div::-webkit-scrollbar {
+  display: none;
 }

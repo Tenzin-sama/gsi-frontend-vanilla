@@ -164,3 +164,84 @@ nav {
   font-size: 14px;
   line-height: 26px;
 }
+
+.client-tiny {
+  width: 180px;
+  height: 120px;
+  background: #f2c3c3;
+  margin-right: 24px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  -webkit-scroll-snap-align: start;
+  -moz-scroll-snap-align: start;
+  background-size: cover;
+  background-position: center;
+}
+
+.test-div{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 1200px;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  scroll-snap-type: x mandatory;
+  -webkit-scroll-snap-type: x mandatory;
+  -moz-scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.scroll-wrapper {
+  width: 1200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-content {
+  display: flex;
+  width: 9999px;
+  position: absolute;
+  animation: scroll 3s linear infinite;
+}
+
+.client-tiny {
+  width: 180px;
+  height: 120px;
+  background: #f2c3c3;
+  margin-right: 24px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-9999px);
+  }
+}
+
+.image-list {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.image-item {
+  width: 180px;
+  height: 120px;
+  background: #f2c3c3;
+  margin-right: 24px;
+  background-image: url('path/to/image.jpg');
+  background-size: cover;
+  animation: scroll 10s linear infinite;
+  flex-shrink: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-300px - 24px));
+  }
+}
