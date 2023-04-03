@@ -5,6 +5,9 @@
 .bg-white {
   background-color: #ffffff;
 }
+.bg-light-gray{
+  background-color: #F2F5F9;
+}
 .bg-blk90 {
   background-color: #16243d;
 }
@@ -195,4 +198,11 @@ h3 {
 }
 div::-webkit-scrollbar {
   display: none;
+}
+
+.border-0{
+  border: none;
+}
+.overflow-hidden{
+  overflow: hidden;
 }

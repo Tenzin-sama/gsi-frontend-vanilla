@@ -204,13 +204,6 @@ nav {
   animation: scroll 3s linear infinite;
 }
 
-.client-tiny {
-  width: 180px;
-  height: 120px;
-  background: #f2c3c3;
-  margin-right: 24px;
-}
-
 @keyframes scroll {
   0% {
     transform: translateX(0);
