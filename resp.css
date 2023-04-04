@@ -3,6 +3,7 @@
   /* Add your CSS rules here */
   body{
     overflow-x: hidden;
+    width: 100%;
   }
   .width-content {
     width: 96%;
