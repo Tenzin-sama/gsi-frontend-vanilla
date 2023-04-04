@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="style-class.css">
+    <link rel="stylesheet" type="text/css" href="resp.css">
     <title>GSI</title>
   </head>
 
@@ -43,10 +44,13 @@
       <div class="image-overlay"></div>
       <div class="width-100 hero-section d-flex justify-center">
         <!-- content container -->
-        <div class="d-flex width-content height-100 justify-between" style="z-index: 1;">
+        <div class="d-flex width-content height-100 justify-between mobile-column" style="z-index: 1;">
           <!-- left -->
-          <div class="d-flex justify-start d-flex-column gap-32 width-64 align-start">
+          <div class="d-flex justify-start d-flex-column gap-32 width-64 align-start mobile-full">
             <h1 class="fg-white">Collaboration with GEOFEM</h1>
+            <div class="geofem-logo-mobile">
+              <img src="geofem-logo.png" alt="GEOFEM Company Logo" width="244" height="54">
+            </div>
             <p class="fg-white-70 f-18">GSI's partnership with GEOFEM is driving innovation in geoscience. By combining
               our expertise in
               geological mapping and mineral exploration with GEOFEM's cutting-edge geophysical research, we are able to
@@ -56,7 +60,7 @@
             </div>
           </div>
           <!-- right -->
-          <div class="">
+          <div class="geofem-logo-default">
             <img src="geofem-logo.png" alt="GEOFEM Company Logo" width="244" height="54">
           </div>
         </div>
@@ -67,10 +71,10 @@
     <section class="margin-auto width-content d-flex position-relative margin-bottom-200">
       <div class="width-100 margin-negative-top-32 d-flex d-flex-column justify-between gap-32">
         <!-- individual row 1/2-->
-        <div class="width-100 d-flex d-flex-row justify-between">
+        <div class="width-100 d-flex d-flex-row justify-between tablet-column tablet-gap-32">
           <!-- individual service -->
           <div
-            class="indiv-service width-44 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow">
+            class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full">
             <img src="service rockfall.jpg">
             <div class="d-flex d-flex-column align-start gap-0">
               <h3 class="fg-blk90">Rockfall protection solutions</h3>
@@ -80,7 +84,7 @@
 
           <!-- individual service -->
           <div
-            class="indiv-service width-44 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow">
+            class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full">
             <img src="service environmental.jpg">
             <div class="d-flex d-flex-column align-start gap-0">
               <h3 class="fg-blk90">Environmental Solutions</h3>
@@ -90,10 +94,10 @@
 
         </div>
         <!-- individual row 2/2 -->
-        <div class="width-100 d-flex d-flex-row justify-between">
+        <div class="width-100 d-flex d-flex-row justify-between tablet-column tablet-gap-32">
           <!-- individual service -->
           <div
-            class="indiv-service width-44 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow">
+            class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full">
             <img src="service structural.jpg">
             <div class="d-flex d-flex-column align-start gap-0">
               <h3 class="fg-blk90">Structural Solutions</h3>
@@ -103,7 +107,7 @@
 
           <!-- individual service -->
           <div
-            class="indiv-service width-44 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow">
+            class="width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full">
             <img src="service Geotechnical.jpg">
             <div class="d-flex d-flex-column align-start gap-0">
               <h3 class="fg-blk90">Geotechnical Solutions</h3>
@@ -116,8 +120,8 @@
     </section>
 
     <!-- about section -->
-    <section class="width-content margin-auto d-flex d-flex-row justify-between margin-bottom-200">
-      <img src="company.jpg" height="539px" width="500px">
+    <section class="width-content margin-auto d-flex d-flex-row justify-between margin-bottom-200 tablet-column">
+      <img class="about-company-img" src="company.jpg">
       <!-- left -->
       <div class="d-flex justify-start d-flex-column gap-32 max-width-569 align-start">
         <h1 class="fg-blk90">About Geotech Solutions International</h1>
@@ -126,7 +130,7 @@
           engineering and social science. GSI Team has a wealth of experience in the field of project planning,
           transportation, hydropower, water supply and sanitation, rural and urban infrastructure development, water
           resources development, social and environmental planning, and disaster risk management. </p>
-        <div class="d-flex d-flex-row gap-32">
+        <div class="d-flex d-flex-row gap-32 mobile-column">
           <div class="contact rounded-2">
             <a href="#" class="contact-button">Get in touch with us</a>
           </div>
@@ -142,12 +146,15 @@
     <section class="width-content margin-auto d-flex d-flex-column gap-32 margin-bottom-200">
       <!-- why us row 1/2 -->
       <div class="width-100 d-flex d-flex-row justify-between">
-        <div class="sp-HW-270">
-          <h1 class="fg-blk90">Why GSI?</h1>
+        <div class="d-flex d-flex-row justify-between">
+          <div class="sp-HW-270">
+            <h1 class="fg-blk90">Why GSI?</h1>
+          </div>
+          <div class="sp-HW-270 bg-blk90 rounded-10">
+            <h1 class="fg-blk90">Why GSI</h1>
+          </div>
         </div>
-        <div class="sp-HW-270 bg-blk90 rounded-10">
-          <h1 class="fg-blk90">Why GSI</h1>
-        </div>
+
         <div class="sp-HW-270 bg-blk90 rounded-10">
           <h1 class="fg-blk90">Why GSI</h1>
         </div>
@@ -178,10 +185,10 @@
           Our Services
         </h1>
         <!-- individual row 1/2-->
-        <div class="width-100 d-flex d-flex-row justify-between">
+        <div class="width-100 d-flex d-flex-row justify-between tablet-column tablet-gap-32">
           <!-- individual service -->
           <div
-            class="indiv-service width-44 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow">
+            class="indiv-service width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full">
             <img src="service rockfall.jpg">
             <div class="d-flex d-flex-column align-start gap-0">
               <h3 class="fg-blk90">Rockfall protection solutions</h3>
@@ -191,7 +198,7 @@
 
           <!-- individual service -->
           <div
-            class="indiv-service width-44 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow">
+            class="indiv-service width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full">
             <img src="service environmental.jpg">
             <div class="d-flex d-flex-column align-start gap-0">
               <h3 class="fg-blk90">Environmental Solutions</h3>
@@ -201,10 +208,10 @@
 
         </div>
         <!-- individual row 2/2 -->
-        <div class="width-100 d-flex d-flex-row justify-between">
+        <div class="width-100 d-flex d-flex-row justify-between tablet-column tablet-gap-32">
           <!-- individual service -->
           <div
-            class="indiv-service width-44 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow">
+            class="indiv-service width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full">
             <img src="service structural.jpg">
             <div class="d-flex d-flex-column align-start gap-0">
               <h3 class="fg-blk90">Structural Solutions</h3>
@@ -213,7 +220,7 @@
           </div>
           <!-- individual service -->
           <div
-            class="indiv-service width-44 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow">
+            class="indiv-service width-43 rounded-10 bg-white d-flex d-flex-row align-center padding-y-30 padding-x-32 gap-20 shadow indiv-service tablet-full">
             <img src="service Geotechnical.jpg">
             <div class="d-flex d-flex-column align-start gap-0">
               <h3 class="fg-blk90">Geotechnical Solutions</h3>
@@ -228,11 +235,11 @@
     <section class="width-100 d-flex-column justify-center margin-y-200 gap-56">
       <h1 class="fg-blk90">More about GSI</h1>
       <!-- cards row -->
-      <div class="width-content d-flex-row justify-between">
+      <div class="width-content d-flex-row justify-between tablet-column tablet-gap-32">
         <!-- indiv more card -->
         <div class="d-flex-column gap-16 padding-16 shadow rounded-10">
           <div class="rounded-10 bg-light-gray overflow-hidden">
-            <img src="hero.png" class="border-0" src="" width="540px" height="220px">
+            <img src="hero.png" class="border-0 more-about-gsi-img">
           </div>
           <div class="d-flex-column gap-0 justify-center">
             <h3 class="fg-blk90">Objectives</h3>
@@ -242,7 +249,7 @@
         <!-- indiv more card -->
         <div class="d-flex-column gap-16 padding-16 shadow rounded-10">
           <div class="rounded-10 bg-light-gray overflow-hidden">
-            <img src="hero.png" class="border-0" src="" width="540px" height="220px">
+            <img src="hero.png" class="border-0 more-about-gsi-img">
           </div>
           <div class="d-flex-column gap-0 justify-center">
             <h3 class="fg-blk90">Innovation</h3>

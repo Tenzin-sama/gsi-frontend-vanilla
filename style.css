@@ -178,7 +178,7 @@ nav {
   background-position: center;
 }
 
-.test-div{
+.test-div {
   display: flex;
   flex-wrap: nowrap;
   width: 1200px;
@@ -224,7 +224,7 @@ nav {
   height: 120px;
   background: #f2c3c3;
   margin-right: 24px;
-  background-image: url('path/to/image.jpg');
+  background-image: url("path/to/image.jpg");
   background-size: cover;
   animation: scroll 10s linear infinite;
   flex-shrink: 0;
@@ -237,4 +237,17 @@ nav {
   100% {
     transform: translateX(calc(-300px - 24px));
   }
+}
+
+.about-company-img {
+  height: 539px;
+  width: 500px;
+  object-fit: cover;
+}
+.more-about-gsi-img{
+  height: 220px;
+  width: 540px;
+}
+.geofem-logo-mobile{
+  display: none;
 }

@@ -1,14 +1,117 @@
 /* For screens smaller than 600px (e.g., smartphones) */
 @media screen and (max-width: 600px) {
   /* Add your CSS rules here */
+  .width-content {
+    width: 96%;
+  }
+  .top-banner-nav{
+    height: fit-content;
+  }
+  .top-banner-nav .content {
+    width: 600px;
+    /* height: 1000px; */
+    padding: 4px;
+  }
+  .navbar {
+    width: 600px;
+  }
+  .nav-links{
+    display: none;
+  }
+  .tablet-column, .mobile-column{
+    flex-direction: column;
+  }
+  .tablet-gap-32{
+    gap: 32px;
+  }
+  .tablet-full{
+    width: 80%;
+  }
+  .mobile-full{
+    width: 100%;
+  }
+  .geofem-logo-mobile{
+    display: block;
+  }
+  .geofem-logo-default{
+    display: none;
+  }
+  .indiv-service {
+    /* width: 400px; */
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-company-img {
+    display: none;
+  }
 }
 
 /* For screens between 600px and 900px (e.g., tablets) */
 @media screen and (min-width: 600px) and (max-width: 900px) {
   /* Add your CSS rules here */
+  .width-content {
+    width: 600px;
+  }
+  .top-banner-nav{
+    height: fit-content;
+  }
+  .top-banner-nav .content {
+    width: 600px;
+    /* height: 1000px; */
+    padding: 4px;
+  }
+  .navbar {
+    width: 600px;
+  }
+  .nav-links{
+    display: none;
+  }
+  .tablet-column{
+    flex-direction: column;
+  }
+  .tablet-gap-32{
+    gap: 32px;
+  }
+  .tablet-full{
+    width: 80%;
+  }
+  .indiv-service {
+    /* width: 400px; */
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-company-img {
+    display: none;
+  }
+}
+/* For screens between 600px and 1164px (e.g., semi desktops) */
+@media screen and (min-width: 900px) and (max-width: 1164px) {
+  /* Add your CSS rules here */
+  .width-content {
+    width: 900px;
+  }
+  .top-banner-nav .content {
+    width: 900px;
+  }
+  .navbar {
+    width: 900px;
+  }
+  .indiv-service {
+    /* width: 400px; */
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .about-company-img {
+    height: 300px;
+    width: 260px;
+  }
+  .more-about-gsi-img{
+    height: 160px;
+    width: 400px;
+  }
 }
 
 /* For screens larger than 900px (e.g., laptops and desktops) */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1164px) {
   /* Add your CSS rules here */
 }
