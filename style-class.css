@@ -5,8 +5,8 @@
 .bg-white {
   background-color: #ffffff;
 }
-.bg-light-gray{
-  background-color: #F2F5F9;
+.bg-light-gray {
+  background-color: #f2f5f9;
 }
 .bg-blk90 {
   background-color: #16243d;
@@ -87,6 +87,9 @@ h3 {
 .height-100 {
   height: 100%;
 }
+.d-inline{
+  display: inline-block;
+}
 .d-flex {
   display: flex;
   align-items: center;
@@ -116,16 +119,19 @@ h3 {
 .position-relative {
   position: relative;
 }
-.gap-56{
+.gap-56 {
   gap: 56px;
 }
 .gap-32 {
   gap: 32px;
 }
+.gap-24{
+  gap: 24px;
+}
 .gap-20 {
   gap: 20px;
 }
-.gap-16{
+.gap-16 {
   gap: 16px;
 }
 .gap-0 {
@@ -140,7 +146,7 @@ h3 {
 .rounded-2 {
   border-radius: 2px;
 }
-.rounded-8{
+.rounded-8 {
   border-radius: 8px;
 }
 .rounded-10 {
@@ -149,7 +155,7 @@ h3 {
 .margin-auto {
   margin: auto;
 }
-.padding-16{
+.padding-16 {
   padding: 16px;
 }
 .padding-y-30 {
@@ -187,14 +193,26 @@ h3 {
 .shadow {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.07);
 }
-.why-gsi-duo-card-container{
+.why-gsi-duo-card-container {
+  width: 570px;
+  /* height: 270px; */
+}
+.contact-us-mini {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* padding: 39px 60px; */
+  gap: 24px;
+  height: 270px;
+  
   width: 570px;
 }
 .sp-HW-270 {
   height: 270px;
   width: 270px;
 }
-.overflow-x-nobar{
+.overflow-x-nobar {
   overflow-x: scroll;
   -ms-overflow-style: none; /* IE11 */
   scrollbar-width: none; /* Firefox */
@@ -203,9 +221,9 @@ div::-webkit-scrollbar {
   display: none;
 }
 
-.border-0{
+.border-0 {
   border: none;
 }
-.overflow-hidden{
+.overflow-hidden {
   overflow: hidden;
 }
