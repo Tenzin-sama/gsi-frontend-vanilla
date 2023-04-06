@@ -187,6 +187,9 @@ h3 {
 .shadow {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.07);
 }
+.why-gsi-duo-card-container{
+  width: 570px;
+}
 .sp-HW-270 {
   height: 270px;
   width: 270px;
