@@ -134,6 +134,9 @@ h3 {
 .gap-16 {
   gap: 16px;
 }
+.gap-8 {
+  gap: 8px;
+}
 .gap-0 {
   gap: 0;
 }
@@ -155,6 +158,9 @@ h3 {
 .margin-auto {
   margin: auto;
 }
+.padding-8{
+  padding: 8px;
+}
 .padding-16 {
   padding: 16px;
 }
@@ -165,6 +171,10 @@ h3 {
 .padding-x-32 {
   padding-left: 32px;
   padding-right: 32px;
+}
+.padding-y-45{
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 .margin-negative-top-32 {
   /* position: absolute;
