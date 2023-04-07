@@ -35,6 +35,9 @@
   .mobile-full {
     width: 100%;
   }
+  .mobile-margin-top-64{
+    margin-top: 64px;
+  }
   .geofem-logo-mobile {
     display: block;
   }
