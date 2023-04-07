@@ -50,8 +50,14 @@ h3 {
 .f-24 {
   font-size: 24px;
 }
+.f-20{
+  font-size: 20px;
+}
 .f-18 {
   font-size: 18px;
+}
+.f-16{
+  font-size: 16px;
 }
 .f-14 {
   font-size: 14px;
@@ -155,9 +161,6 @@ h3 {
 .rounded-10 {
   border-radius: 10px;
 }
-.margin-auto {
-  margin: auto;
-}
 .padding-8{
   padding: 8px;
 }
@@ -167,6 +170,14 @@ h3 {
 .padding-y-30 {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.padding-y-40{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.padding-x-50{
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .padding-x-32 {
   padding-left: 32px;
@@ -180,6 +191,12 @@ h3 {
   /* position: absolute;
   top: -32px; */
   margin-top: -32px;
+}
+.margin-top-100{
+  margin-top: 100px;
+}
+.margin-auto {
+  margin: auto;
 }
 .margin-top-64 {
   margin-top: 64px;

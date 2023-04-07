@@ -63,6 +63,18 @@
   .contact-us-mini {
     height: fit-content;
   }
+  .contact-us-card{
+    width: 100%;
+    background-color: aqua;
+  }
+  .collab-image{
+    height: 146px;
+    width: 196px;
+    object-fit: contain;
+  }
+  .mobile-gap-16{
+    gap: 16px;
+  }
 }
 
 /* For screens between 600px and 900px (e.g., tablets) */
@@ -101,6 +113,9 @@
   }
   .about-company-img {
     display: none;
+  }
+  .contact-us-card{
+    width: 100%;
   }
 }
 /* For screens between 600px and 1164px (e.g., semi desktops) */
