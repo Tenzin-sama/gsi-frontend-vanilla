@@ -12,12 +12,12 @@
     height: fit-content;
   }
   .top-banner-nav .content {
-    width: 600px;
+    width: 100%;
     /* height: 1000px; */
     padding: 4px;
   }
   .navbar {
-    width: 600px;
+    width: 90%;
   }
   .nav-links {
     display: none;
