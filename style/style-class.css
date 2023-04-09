@@ -268,3 +268,13 @@ div::-webkit-scrollbar {
 .overflow-hidden {
   overflow: hidden;
 }
+.hover-bg-darker img{
+  border-radius: 100%;
+}
+.hover-bg-darker:hover img{
+  filter: brightness(60%)
+}
+.current-service{
+  border: #16243d solid 1px;
+  background-color: #8A919D;
+}
