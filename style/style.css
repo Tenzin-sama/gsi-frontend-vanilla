@@ -133,7 +133,7 @@ nav {
 /* hero */
 .hero-section {
   height: 682px;
-  background-image: url("hero.png");
+  background-image: url("//images/hero.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,7 +223,7 @@ nav {
   height: 120px;
   background: #f2c3c3;
   margin-right: 24px;
-  background-image: url("path/to/image.jpg");
+  /* background-image: url("path/to/image.jpg"); */
   background-size: cover;
   animation: scroll 10s linear infinite;
   flex-shrink: 0;
