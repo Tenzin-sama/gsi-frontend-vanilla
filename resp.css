@@ -74,6 +74,9 @@
   .mobile-gap-16{
     gap: 16px;
   }
+  .mobile-margin-top-16{
+    margin-top: 16px;
+  }
 }
 
 /* For screens between 600px and 900px (e.g., tablets) */
@@ -162,6 +165,9 @@
   .resp-line-height-16 {
     line-height: 24px;
     width: 90%;
+  }
+  .mobile-margin-top-16{
+    margin-top: 24px;
   }
 }
 
